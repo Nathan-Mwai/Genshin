@@ -1,0 +1,67 @@
+@media (prefer-reduced-motion:no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+    }
+
+    nav{
+        display: block;
+    }
+
+    #navbar{
+        position: fixed;
+        border-right: 2px solid rgb(180, 26, 26);
+        min-width: 290px;
+        left: 0;
+        top: 0;
+        width: 290px;
+        height: 100%;
+    }
+
+    .nav-link , ol{
+        border-bottom: 2px solid rgb(177, 24, 24);
+        padding-left: 0;
+    }    
+
+    ol{
+        position: static;
+        padding-top: 70px;
+    }
+
+    #main-doc{
+        position: inherit;
+        padding-left: 400px;
+        margin-top: 0;
+    }
+
+    .Characters{
+        width: 20%;
+        max-width: 30%;
+        object-fit: cover;
+        border-radius: 50px;
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 10px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+
+    
+    .one , .two{
+        border-bottom: 2px solid rgb(177, 24, 24);
+        padding-right: 0;
+    }
+
+    .Artifacts{
+        display: block;
+        width: 25%;
+    }
+
+    .flower , .feather , .Sands-of-eon, .Goblet , .circlet{
+        display: block;
+        width: 5%;
+        left: 0;
+    }
